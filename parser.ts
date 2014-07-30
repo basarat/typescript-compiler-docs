@@ -1,1 +1,1 @@
-Main entry point is `createProgram`. Parsed filenames are called `rootNames` here
+Main entry point is `createProgram`. The filenames from the command-line are called `rootNames` here
