@@ -3,11 +3,6 @@ typescript-compiler-docs
 
 A work in progress documentation of how the TypeScript compiler works 
 
-# Sections 
-The main https://github.com/Microsoft/TypeScript/tree/master/src/compiler
-
-scanner -> parser -> (binder,checker)  -> emitter 
-
 # Useful PRs with Insight
 ## Missing try block with a catch / finally 
 https://github.com/Microsoft/TypeScript/pull/262/files
