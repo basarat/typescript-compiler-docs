@@ -6,5 +6,5 @@ scanner -> parser -> (binder,checker)  -> emitter
 # Call Order
 
 `executeCommandLine` (also inside `parseCommandLine` from `commandLineParser.ts`) 
-> `createProgram`
+> `createProgram` the parsed filenames are called `rootNames` here
 > 
