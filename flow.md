@@ -5,6 +5,6 @@ scanner -> parser -> (binder,checker)  -> emitter
 
 # Call Order
 
-`executeCommandLine` (also inside `parseCommandLine` in `commandLineParser.ts`) 
+`executeCommandLine` (also inside `parseCommandLine` from `commandLineParser.ts`) 
 > `createProgram`
 > 
