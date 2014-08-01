@@ -12,5 +12,9 @@ https://github.com/Microsoft/TypeScript/pull/262/files
 https://github.com/Microsoft/TypeScript/pull/273/files
 **Parser** : `parseObjectLiteral` is used to parse object literals. `parseDelimitedList` is used to parse the properties of object literals.
 
+## Fast compilation on watch
+https://github.com/Microsoft/TypeScript/pull/324
+Basically create a copy of the `program` and update it based on changes. Mostly inside `tc.ts`
+
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
