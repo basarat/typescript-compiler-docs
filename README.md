@@ -14,7 +14,7 @@ https://github.com/Microsoft/TypeScript/pull/273/files
 
 ## Fast compilation on watch
 https://github.com/Microsoft/TypeScript/pull/324
-Basically create a copy of the `program` and update it based on changes. Mostly inside `tc.ts`
+Basically create a copy of the `program` and update it based on changes. Mostly inside `tc.ts` the `recompile` function.
 
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
