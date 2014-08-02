@@ -16,8 +16,15 @@ https://github.com/Microsoft/TypeScript/pull/273/files
 https://github.com/Microsoft/TypeScript/pull/324
 Basically create a copy of the `program` and update it based on changes. Mostly inside `tc.ts` the `recompile` function.
 
-## Initial port of the language service: 
+
+## Language Service 
+
+### Initial port of the language service
 https://github.com/Microsoft/TypeScript/pull/303
+
+### Pull model for contextual types 
+https://github.com/Microsoft/TypeScript/pull/330
+`getContextualType` function by anders
 
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
