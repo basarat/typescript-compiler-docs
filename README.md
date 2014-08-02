@@ -28,7 +28,7 @@ https://github.com/Microsoft/TypeScript/pull/330
 # Emitter
 ## The class emit
 https://github.com/Microsoft/TypeScript/pull/331/files 
-change the order of `this` emit in class body.
+change the order of `this` emit in class body. `emitClassDeclaration`
 
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
