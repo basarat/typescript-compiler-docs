@@ -20,3 +20,8 @@ The parser initiates the scanner on each of the files in `rootName` + `lib.d.ts`
 
 ## createScanner (scanner)
 Creates the scanner. A new one is created for each file that needs to be scanned (including `lib.d.ts`)
+
+## emitFiles (emitter)
+The main function for emiting the output. Called from the `checker` (which itself is a part of the `program`). 
+See `tc.ts` : `program.getTypeChecker().emitFiles()` (an alias to `invokeEmitter` in `checker.ts` which simply calls `emitFiles` in `emitter.ts`)
+
