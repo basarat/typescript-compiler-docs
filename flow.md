@@ -3,6 +3,8 @@ The main https://github.com/Microsoft/TypeScript/tree/master/src/compiler
 
 scanner -> parser -> (binder,checker)  -> emitter 
 
+`parser.ts` / `createProgram` (and then the program) seems to be the main orchestrator in the compiler.
+
 # Call Order
 
 `tc.ts` `executeCommandLine` (also inside this function `parseCommandLine` from `commandLineParser.ts`) 
