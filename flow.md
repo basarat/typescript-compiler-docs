@@ -19,4 +19,4 @@ The parser initiates the scanner on each of the files in `rootName` + `lib.d.ts`
 `createSourceFile` in the parser will create the scanner on the found text using `createScanner`. Also it has a bunch of utility (nested) functions e.g. `processReferenceComments`
 
 ## createScanner (scanner)
-Creates the scanner.
+Creates the scanner. A new one is created for each file that needs to be scanned (including `lib.d.ts`)
