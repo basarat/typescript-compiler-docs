@@ -28,5 +28,8 @@ The main function for emiting the output. Called from the `checker` (which itsel
 See `tc.ts` : `program.getTypeChecker().emitFiles()` (an alias to `invokeEmitter` in `checker.ts` which simply calls `emitFiles` in `emitter.ts`)
 
 
+# Type Checker
 ## createTypeChecker 
 Called from `parser` specifically `createProgram`, and stored on the `program` (`getTypeChecker`).
+
+Does its work on a call to `checker.getDiagnostics` (called from `tc.ts`)
