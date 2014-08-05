@@ -11,6 +11,9 @@ https://github.com/Microsoft/TypeScript/pull/262/files
 https://github.com/Microsoft/TypeScript/pull/273/files
 **Parser** : `parseObjectLiteral` is used to parse object literals. `parseDelimitedList` is used to parse the properties of object literals.
 
+## Reference tag lookup
+https://github.com/Microsoft/TypeScript/pull/365/files Changed to load extensionless reference tags (`.d.ts` and `.ts`)
+
 ## Fast compilation on watch
 https://github.com/Microsoft/TypeScript/pull/324
 Basically create a copy of the `program` and update it based on changes. Mostly inside `tc.ts` the `recompile` function.
