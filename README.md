@@ -33,5 +33,15 @@ https://github.com/Microsoft/TypeScript/pull/330
 https://github.com/Microsoft/TypeScript/pull/331/files 
 change the order of `this` emit in class body. `emitClassDeclaration`
 
+# Checker
+## Change the order in which the functions are checked in overloads
+https://github.com/Microsoft/TypeScript/pull/378 
+```ts
+ interface A { (x: string): void }
+ interface B { (x: 'foo'): string }
+ var b: B;
+ b('foo') // <- here overloads should be processed as [(x:'foo'): string, (x: string): void]
+```
+
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
