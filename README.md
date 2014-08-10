@@ -33,6 +33,10 @@ https://github.com/Microsoft/TypeScript/pull/330
 https://github.com/Microsoft/TypeScript/pull/331/files 
 change the order of `this` emit in class body. `emitClassDeclaration`
 
+## Emitter / checker for `.d.ts` files 
+https://github.com/Microsoft/TypeScript/pull/414 
+Declaration file needs to always emit typeof function/static function instead of emitting signature
+
 # Checker
 ## Change the order in which the functions are checked in overloads
 https://github.com/Microsoft/TypeScript/pull/378 
