@@ -52,3 +52,7 @@ https://github.com/Microsoft/TypeScript/pull/378
 
 # Tutorials 
 **hacking it to add a documentation emitter** http://www.codeproject.com/Articles/635280/TypeScript-Compiler-Documentation-Output 
+
+
+## More language service 
+An overview of a file in terms of lexical structure : https://github.com/Microsoft/TypeScript/issues/534
