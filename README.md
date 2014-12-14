@@ -56,3 +56,6 @@ https://github.com/Microsoft/TypeScript/pull/378
 
 ## More language service 
 An overview of a file in terms of lexical structure : https://github.com/Microsoft/TypeScript/issues/534
+
+# Various Classifer
+https://github.com/Microsoft/TypeScript/issues/1477#issuecomment-66904683 
