@@ -64,4 +64,4 @@ https://github.com/Microsoft/TypeScript/issues/1477#issuecomment-66904683
 
 # Walking the syntax Tree
 
-Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929): 
+Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929). 
