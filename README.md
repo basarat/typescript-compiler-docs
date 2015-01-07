@@ -1,7 +1,9 @@
 typescript-compiler-docs
 ========================
 
-A work in progress documentation of how the TypeScript compiler works. Useful PRs with Insight
+A work in progress documentation of how the TypeScript compiler works. 
+
+# Useful PRs with Insight
 
 ## Missing try block with a catch / finally 
 https://github.com/Microsoft/TypeScript/pull/262/files
@@ -59,3 +61,7 @@ An overview of a file in terms of lexical structure : https://github.com/Microso
 
 # Various Classifer
 https://github.com/Microsoft/TypeScript/issues/1477#issuecomment-66904683 
+
+# Walking the syntax Tree
+
+Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929): 
