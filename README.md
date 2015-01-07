@@ -1,6 +1,8 @@
 typescript-compiler-docs
 ========================
 
+*UPDATE* : we have offical docs now! : https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API 
+
 A work in progress documentation of how the TypeScript compiler works. 
 
 # Useful PRs with Insight
