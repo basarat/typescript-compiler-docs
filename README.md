@@ -71,3 +71,6 @@ Uses the `ts.forEachChild` exported from the `parser`. Helpful information from 
 
 # Things on nodes only get written once 
 https://github.com/Microsoft/TypeScript/issues/1514#issuecomment-69105512 
+
+# Some Terminal nodes are not in the AST 
+They can be "rehydrated" on demand using the sourcetext by calling `getChildren()` https://github.com/Microsoft/TypeScript/issues/1514#issuecomment-69118975 
