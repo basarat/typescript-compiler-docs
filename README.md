@@ -66,7 +66,7 @@ https://github.com/Microsoft/TypeScript/issues/1477#issuecomment-66904683
 
 # Walking the syntax Tree
 
-Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929). 
+Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929). Note how the `Node` is augmented by `services` [here](https://github.com/Microsoft/TypeScript/blob/6f6c46a99f446144702bb324f6b50d94a000a690/src/services/services.ts#L14)
 
 
 # Things on nodes only get written once 
