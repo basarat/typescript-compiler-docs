@@ -84,3 +84,4 @@ In the language service https://github.com/Microsoft/TypeScript/issues/1651#issu
 
 # Support JSX 
 You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
+JSX Specification : http://facebook.github.io/jsx/
