@@ -82,3 +82,5 @@ In the language service https://github.com/Microsoft/TypeScript/issues/1651#issu
 * `getFormattingEditsForDocument`
   for `getFormattingEditsForDocument` once you've gotten the appropriate edits ranges, you can easily apply them in reverse and fix up the original source text.
 
+# Support JSX 
+You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
