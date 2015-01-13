@@ -74,3 +74,11 @@ https://github.com/Microsoft/TypeScript/issues/1514#issuecomment-69105512
 
 # Some Terminal nodes are not in the AST 
 They can be "rehydrated" on demand using the sourcetext by calling `getChildren()` https://github.com/Microsoft/TypeScript/issues/1514#issuecomment-69118975 
+
+# Formatting your documents 
+In the language service https://github.com/Microsoft/TypeScript/issues/1651#issuecomment-69684066 
+* `getFormattingEditsForRange`
+* `getFormattingEditsAfterKeystroke`
+* `getFormattingEditsForDocument`
+  for `getFormattingEditsForDocument` once you've gotten the appropriate edits ranges, you can easily apply them in reverse and fix up the original source text.
+
