@@ -82,6 +82,22 @@ In the language service https://github.com/Microsoft/TypeScript/issues/1651#issu
 * `getFormattingEditsForDocument`
   for `getFormattingEditsForDocument` once you've gotten the appropriate edits ranges, you can easily apply them in reverse and fix up the original source text.
 
+Once you have them you can apply them in reverse : https://github.com/Microsoft/TypeScript/issues/1651#issuecomment-69877863 
+```ts
+function formatCode(orig: string, changes: TextChange[]): string {
+    var result = orig;
+
+    for (var i = changes.length - 1; i >= 0; i--) {
+        var change = changes[i];
+        var head = result.slice(0, change.span.start);
+        var tail = result.slice(change.span.start + change.span.length)
+        result = head + change.newText + tail;
+    }
+
+    return result;
+}
+```
+
 # Support JSX 
 You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
 JSX Specification : http://facebook.github.io/jsx/
