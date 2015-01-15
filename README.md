@@ -68,6 +68,7 @@ https://github.com/Microsoft/TypeScript/issues/1477#issuecomment-66904683
 
 Uses the `ts.forEachChild` exported from the `parser`. Helpful information from [this comment](https://github.com/Microsoft/TypeScript/issues/254#issuecomment-68940929). Note how the `Node` is augmented by `services` [here](https://github.com/Microsoft/TypeScript/blob/6f6c46a99f446144702bb324f6b50d94a000a690/src/services/services.ts#L14)
 
+Demo : http://blog.ctaggart.com/2015/01/typescript-14-ast-from-nodejs.html
 
 # Things on nodes only get written once 
 https://github.com/Microsoft/TypeScript/issues/1514#issuecomment-69105512 
@@ -97,6 +98,8 @@ function formatCode(orig: string, changes: TextChange[]): string {
     return result;
 }
 ```
+
+Demo : http://blog.ctaggart.com/2015/01/format-typescript-with-v14-language.html
 
 # Support JSX 
 You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
