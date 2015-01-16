@@ -104,16 +104,5 @@ Demo : http://blog.ctaggart.com/2015/01/format-typescript-with-v14-language.html
 # Support JSX 
 You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
 JSX Specification : http://facebook.github.io/jsx/
+How to augment: https://github.com/facebook/react/issues/759#issuecomment-50529015
 
-# Trivia 
-From Roslyn compiler : 
-
-Syntax trivia represent the parts of the source text that are largely insignificant for normal understanding of the code, such as whitespace, comments, and preprocessor directives.
-
-Because trivia are not part of the normal language syntax and can appear anywhere between any two tokens, they are not included in the syntax tree as a child of a node. Yet, because they are important when implementing a feature like refactoring and to maintain full fidelity with the source text, they do exist as part of the syntax tree.
-
-You can access trivia by inspecting a token’s LeadingTrivia or TrailingTrivia collections. When source text is parsed, sequences of trivia are associated with tokens. In general, a token owns any trivia after it on the same line up to the next token. Any trivia after that line is associated with the following token. The first token in the source file gets all the initial trivia, and the last sequence of trivia in the file is tacked onto the end-of-file token, which otherwise has zero width.
-
-Unlike syntax nodes and tokens, syntax trivia do not have parents. Yet, because they are part of the tree and each is associated with a single token, you may access the token it is associated with using the Token property.
-
-Like syntax tokens, trivia are value types. The single SyntaxTrivia type is used to describe all kinds of trivia.
