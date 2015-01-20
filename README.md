@@ -106,3 +106,5 @@ You can convert JSX to JavaScript using the API from : https://www.npmjs.com/pac
 JSX Specification : http://facebook.github.io/jsx/
 How to augment: https://github.com/facebook/react/issues/759#issuecomment-50529015
 
+# Skipped tokens by the new foreachchild AST traversal
+https://github.com/Microsoft/TypeScript/issues/1728#issuecomment-70592200 
