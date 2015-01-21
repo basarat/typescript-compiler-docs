@@ -100,6 +100,7 @@ function formatCode(orig: string, changes: TextChange[]): string {
 ```
 
 Demo : http://blog.ctaggart.com/2015/01/format-typescript-with-v14-language.html
+There is also smart indentation alone: https://github.com/Microsoft/TypeScript/issues/1754
 
 # Support JSX 
 You can convert JSX to JavaScript using the API from : https://www.npmjs.com/package/react-tools 
