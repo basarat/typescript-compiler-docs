@@ -109,3 +109,11 @@ How to augment: https://github.com/facebook/react/issues/759#issuecomment-505290
 
 # Skipped tokens by the new foreachchild AST traversal
 https://github.com/Microsoft/TypeScript/issues/1728#issuecomment-70592200 
+
+# Program vs. Language Service
+`languageService` and `program` are very similar in principal. Which you use depends on your scenario.
+
+`program` is great if you just want emit / linting, the os related features can be provided with a `compilerHost` generated with a simple call to `createCompilerHost`.  Examples : https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API#a-minimal-compiler and https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API#traversing-the-ast-with-a-little-linter
+
+`languageService` is great if want something like a full blown IDE support. 
+
