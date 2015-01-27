@@ -117,3 +117,8 @@ https://github.com/Microsoft/TypeScript/issues/1728#issuecomment-70592200
 
 `languageService` is great if want something like a full blown IDE support. 
 
+More on the difference: 
+
+https://github.com/Microsoft/TypeScript/issues/1786#issuecomment-71567975 
+
+> a singe LanguageService object does not map to a single Program object, it actually maps to a set of them. A Program is an immutable object, the LanguageService on the other hand handles changes. under the covers, the LanguageService, on every change, creates a new Program instance to map to the current context, but uses the previous Program instance's unchanged SourceFiles to save computation. If the LanguageService was just an extension over Program, you would need to create a new LanguageService object on every change.
