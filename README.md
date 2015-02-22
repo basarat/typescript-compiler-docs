@@ -126,3 +126,7 @@ https://github.com/Microsoft/TypeScript/issues/1786#issuecomment-71567975
 
 # Expand the list of files knows by language service 
 `LanguageService.getProgram().getSourceFiles()` More https://github.com/Microsoft/TypeScript/commit/9628191a1476bc0dbdb28bfd30b840656ffc26a3#commitcomment-9490325
+
+# Langauge service is just a wrapper on `program` and a thin one : 
+
+e.g. [`getQuickInfoAtPosition`](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L3195) and [`getCompletionsAtPosition`](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L2311) https://github.com/Microsoft/TypeScript/issues/2105#issuecomment-75417304
