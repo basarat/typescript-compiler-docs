@@ -130,3 +130,7 @@ https://github.com/Microsoft/TypeScript/issues/1786#issuecomment-71567975
 # Langauge service is just a wrapper on `program` and a thin one : 
 
 e.g. [`getQuickInfoAtPosition`](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L3195) and [`getCompletionsAtPosition`](https://github.com/Microsoft/TypeScript/blob/master/src/services/services.ts#L2311) https://github.com/Microsoft/TypeScript/issues/2105#issuecomment-75417304
+
+
+# Useful blog post on using `program` 
+http://www.scottlogic.com/blog/2015/01/20/typescript-compiler-api.html
