@@ -8,7 +8,7 @@ A work in progress documentation of how the TypeScript compiler works.
 # Running tests
 Best way I have found is to : 
 ```
-$ ./node_modules/mocha/bin/mocha -R dot -g nodeModules --colors  -t 20000 built/local/run.js
+./node_modules/mocha/bin/mocha -R dot -g nodeModules --colors  -t 20000 built/local/run.js
 ```
 The official greping `jake runtests test=nodeModules` didn't work (though `test=project` does work). 
 
