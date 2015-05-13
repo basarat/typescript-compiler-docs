@@ -12,6 +12,12 @@ $ ./node_modules/mocha/bin/mocha -R dot -g nodeModules --colors  -t 20000 built/
 ```
 The official greping `jake runtests test=nodeModules` didn't work (though `test=project` does work). 
 
+Also see : https://github.com/Microsoft/TypeScript/blob/master/CONTRIBUTING.md
+
+And use `jake diff` with beyond compare. 
+
+`set DIFF=C:\Program Files (x86)\Beyond Compare 3\BComp.exe`
+
 # Useful PRs with Insight
 
 ## Missing try block with a catch / finally 
