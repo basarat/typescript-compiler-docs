@@ -14,9 +14,10 @@ The official greping `jake runtests test=nodeModules` didn't work (though `test=
 
 Also see : https://github.com/Microsoft/TypeScript/blob/master/CONTRIBUTING.md
 
+**Baselines**
 And use `jake diff` with beyond compare. 
-
 `set DIFF=C:\Program Files (x86)\Beyond Compare 3\BComp.exe`
+Its just a folder compare between baselines/local and baselines/reference 
 
 # Useful PRs with Insight
 
