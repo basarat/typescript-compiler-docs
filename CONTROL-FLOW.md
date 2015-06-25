@@ -6,6 +6,10 @@ scanner -> parser -> (binder,checker)  -> emitter
 `parser.ts` / `createProgram` (and then the program) seems to be the main orchestrator in the compiler.
 
 # CURRENT
+## Parser
+We have a single parser (as a module `ts.Parser`) as a namespace module. This gets reinitilized using `initializeState` function which also resets the internal *single `const`* `scanner`. 
+
+## Scanner
 We have a single scanner `const scanner = createScanner(ScriptTarget.Latest, /*skipTrivia*/ true);` in the parser that is shared (for performance) and muated using `setText` and `setScriptTarget`.
 
 
