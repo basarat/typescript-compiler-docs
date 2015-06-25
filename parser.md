@@ -14,7 +14,7 @@ This in turn calls `parseSourceFile` which in turn just initializes the scanner 
 
 
 ## The heart of the parser
-`parseSourceFileWorker` has the following line: 
+`parseSourceFileWorker` has the following line (notice `parseStatement`): 
 
 ```ts
 sourceFile.statements = parseList(ParsingContext.SourceElements, parseStatement);
@@ -22,4 +22,4 @@ sourceFile.statements = parseList(ParsingContext.SourceElements, parseStatement)
 
 This starts the main recursive decent into the syntax tree.
 
-There are a bunch of `parse*` functions (e.g. `parseSwitchStatement`) that do the heavy lifting.
+There are a bunch of `parse*` functions (e.g. `parseSwitchStatement`) that do the heavy lifting. They all lead up to `parseStatement` at some point. Many of these call `parseStatement` themselves.
