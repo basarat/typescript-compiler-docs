@@ -11,3 +11,13 @@ This in turn calls `parseSourceFile` which in turn just initializes the scanner 
 
 ## Managing the scanner
 `initializeState` resets the scanner (and does other cleanup).
+
+
+## The heart of the parser
+`parseSourceFileWorker` has the following line: 
+
+```ts
+sourceFile.statements = parseList(ParsingContext.SourceElements, parseStatement);
+```
+
+This starts the main recursive decent into the syntax tree.
