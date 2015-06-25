@@ -7,7 +7,7 @@ scanner -> parser -> (binder,checker)  -> emitter
 
 # CURRENT
 ## Parser
-We have a single parser (as a module `ts.Parser`) as a namespace module. This gets reinitilized using `initializeState` function which also resets the internal *single `const`* `scanner`. 
+https://github.com/basarat/typescript-compiler-docs/blob/master/parser.md 
 
 ## Scanner
 We have a single scanner `const scanner = createScanner(ScriptTarget.Latest, /*skipTrivia*/ true);` in the parser that is shared (for performance) and muated using `setText` and `setScriptTarget`.
