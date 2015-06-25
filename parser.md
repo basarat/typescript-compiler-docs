@@ -6,4 +6,4 @@ We have a single parser (as a module `ts.Parser`) as a namespace module. This ge
 
 
 ## Managing the scanner
-`initializeState` resets the scanner (and dones other cleanup).
+`initializeState` resets the scanner (and does other cleanup).
