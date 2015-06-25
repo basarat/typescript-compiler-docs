@@ -5,6 +5,12 @@ scanner -> parser -> (binder,checker)  -> emitter
 
 `parser.ts` / `createProgram` (and then the program) seems to be the main orchestrator in the compiler.
 
+# CURRENT
+We have a single scanner `const scanner = createScanner(ScriptTarget.Latest, /*skipTrivia*/ true);` in the parser that is shared (for performance) and muated using `setText` and `setScriptTarget`.
+
+
+# LEGACY
+
 # Call Order
 
 `tc.ts` `executeCommandLine` (also inside this function `parseCommandLine` from `commandLineParser.ts`) 
