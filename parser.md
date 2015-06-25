@@ -21,3 +21,5 @@ sourceFile.statements = parseList(ParsingContext.SourceElements, parseStatement)
 ```
 
 This starts the main recursive decent into the syntax tree.
+
+There are a bunch of `parse*` functions (e.g. `parseSwitchStatement`) that do the heavy lifting.
