@@ -152,3 +152,6 @@ http://www.scottlogic.com/blog/2015/01/20/typescript-compiler-api.html
 
 # Why the compielr AST is different from Mozilla AST 
 https://github.com/Microsoft/TypeScript/issues/1690#issuecomment-77713066 
+
+# Formatting JSX 
+https://github.com/Microsoft/TypeScript/pull/4330/files `smartformatter.ts` + test
