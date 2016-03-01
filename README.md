@@ -155,3 +155,7 @@ https://github.com/Microsoft/TypeScript/issues/1690#issuecomment-77713066
 
 # Formatting JSX 
 https://github.com/Microsoft/TypeScript/pull/4330/files `smartformatter.ts` + test
+
+# Incremental parsing call stack insight
+https://github.com/Microsoft/TypeScript/issues/7310
+about `currentNode` and `canReuseNode` https://github.com/Microsoft/TypeScript/blob/release-1.8/src/compiler/parser.ts#L1463 
