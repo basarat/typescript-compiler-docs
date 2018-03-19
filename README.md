@@ -159,3 +159,6 @@ https://github.com/Microsoft/TypeScript/pull/4330/files `smartformatter.ts` + te
 # Incremental parsing call stack insight
 https://github.com/Microsoft/TypeScript/issues/7310
 about `currentNode` and `canReuseNode` https://github.com/Microsoft/TypeScript/blob/release-1.8/src/compiler/parser.ts#L1463 
+
+# How to tell a const / let declaration 
+https://github.com/Microsoft/TypeScript/issues/22681#issuecomment-374002621 
